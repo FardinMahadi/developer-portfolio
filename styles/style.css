@@ -30,6 +30,10 @@
   border: none;
 }
 
+.btn-primary:hover {
+  background: rgb(253, 110, 10, 0.85);
+}
+
 .section-title {
   font-size: 20px;
   font-weight: bold;
@@ -161,4 +165,76 @@ main section {
 
 .skill-title {
   font-size: 14px;
+}
+
+/* resume section styles */
+.resume-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.experience {
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.experience-title {
+  margin-bottom: 0.5rem;
+}
+
+.experience-sub-title {
+  margin-top: 0;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.experience-description {
+  color: #757575;
+  font-size: 12px;
+}
+
+.resume-download-cv {
+  margin-top: 3rem;
+}
+
+/* footer styles */
+footer {
+  padding: 8rem;
+  display: flex;
+  gap: 8rem;
+}
+.footer-column {
+  width: 50%;
+}
+
+.footer-description {
+  color: #757575;
+  font-size: 12px;
+}
+
+footer div .icon a {
+  margin-right: 1rem;
+}
+
+footer input {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: white;
+  color: #757575;
+  border: none;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+footer textarea {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer .btn-primary {
+  width: auto;
 }
